@@ -1,0 +1,378 @@
+/* Reset margin, padding, and box-sizing for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set global body styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    /* Set font family */
+    background-color: #1a1a1a;
+    /* Dark background */
+    color: #ffffff;
+    /* White text */
+    line-height: 1.6;
+    /* Increase line height for better readability */
+}
+
+/* Header styles */
+header {
+    padding: 1rem 2rem;
+    /* Add padding around the header */
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    /* Flexbox for horizontal layout */
+    justify-content: space-between;
+    /* Space between logo and menu */
+    align-items: center;
+    /* Vertically center items */
+    max-width: 1200px;
+    /* Max width for content */
+    margin: 0 auto;
+    /* Center the navigation */
+}
+
+/* Logo styles */
+.logo {
+    font-size: 1.5rem;
+    /* Size of the logo text */
+    font-weight: bold;
+    /* Make the logo text bold */
+
+}
+
+/* Remove bullet points from navigation list */
+nav ul {
+    display: flex;
+    /* Flexbox for horizontal menu items */
+    list-style: none;
+    /* Remove default list bullets */
+}
+
+/* Add space between menu items */
+nav ul li {
+    margin-left: 2rem;
+    /* Add spacing between list items */
+}
+
+/* Style for links in the navigation */
+nav ul li a {
+    color: #ffffff;
+    /* White text color */
+    text-decoration: none;
+    /* Remove underline from links */
+}
+
+/* Main content section styles */
+main {
+    max-width: 1200px;
+    /* Max width for content */
+    margin: 0 auto;
+    /* Center the main content */
+    padding: 2rem;
+    /* Add padding around the content */
+}
+
+/* Styles for the home section */
+#home {
+    text-align: center;
+    /* Center text */
+    padding: 4rem 0;
+    /* Add padding above and below */
+}
+
+/* Profile image styles */
+.profile-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /* Make the image circular */
+    margin-bottom: 1.5rem;
+    /* Add space below the image */
+    background: linear-gradient(90deg, #FF8660 0%, #9A33FF 100%);
+    /* Gradient background */
+}
+
+/* Heading styles */
+h1 {
+    font-size: 2.5rem;
+    /* Font size for headings */
+    margin-bottom: 1.5rem;
+    /* Space below the heading */
+}
+
+/* Gradient text style */
+.highlight-1 {
+    background: linear-gradient(90deg, #FF8660 0%, #9A33FF 100%);
+    /* Gradient background for text */
+    -webkit-background-clip: text;
+    /* Clip background to the text */
+    -webkit-text-fill-color: transparent;
+    /* Make text fill transparent to show gradient */
+}
+
+/* Gradient text style */
+.highlight-2 {
+    background: linear-gradient(90deg, #FF8660 0%, #D5491D 100%);
+        /* Gradient background for text */
+        -webkit-background-clip: text;
+        /* Clip background to the text */
+        -webkit-text-fill-color: transparent;
+        /* Make text fill transparent to show gradient */
+}
+
+/* Gradient text style */
+.highlight-3 {
+    display: inline-block;
+    /* Ensure it's treated as inline to maintain centering */
+    background: linear-gradient(90deg, #5BADFF 0%, #1373D1 100%);
+    /* Gradient background for text */
+    -webkit-background-clip: text;
+    /* Clip background to the text */
+    -webkit-text-fill-color: transparent;
+    /* Make text fill transparent to show gradient */
+}
+
+/* Call-to-action button container styles */
+.cta-buttons {
+    margin-top: 2rem;
+    /* Space above buttons */
+    display: flex;
+    /* Flexbox for horizontal layout */
+    justify-content: center;
+    /* Center buttons */
+    gap: 1rem;
+    /* Space between buttons */
+}
+
+/* Button base styles */
+.btn {
+    padding: 0.75rem 1.5rem;
+    /* Padding for buttons */
+    border-radius: 22px;
+    /* Rounded corners */
+    font-weight: bold;
+    /* Bold text */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+}
+
+/* Primary button styles */
+.btn.primary {
+    background-color: #ffffff;
+    /* White background */
+    color: #1a1a1a;
+    /* Dark text */
+    border: none;
+    /* No border */
+}
+
+/* Secondary button styles */
+.btn.secondary {
+    background-color: transparent;
+    /* Transparent background */
+    color: #ffffff;
+    /* White text */
+    border: 2px solid #ffffff;
+    /* White border */
+}
+
+/* Tech stack section styles */
+#tech-stack {
+    text-align: center;
+    /* Center text */
+    padding: 1.5rem 0;
+    /* Padding for top and bottom */
+}
+#tech-stack h3 {
+    color: #8491A0;
+     text-align: center;
+}
+
+/* Container for tech icons */
+.tech-icons {
+    display: flex;
+    /* Flexbox for horizontal layout */
+    justify-content: center;
+    /* Center icons */
+    gap: 2rem;
+    /* Space between icons */
+    margin-top: 2rem;
+    /* Space above the icons */
+}
+
+/* Tech icon styles */
+.tech-icons img {
+    width: 50px;
+    /* Set width of the icons */
+    height: 50px;
+    /* Set height of the icons */
+}
+
+/* Styles for UE5 icon with gradient background */
+.ue5-icon {
+    background: rgb(26, 26, 26);
+    /* Dark background */
+    background: linear-gradient(0deg, rgba(26, 26, 26, 1) 0%, rgba(115, 115, 115, 1) 79%);
+    /* Gradient effect */
+    padding: 6px;
+    /* Padding around the image */
+    border-radius: 7px;
+    /* Rounded corners for the background */
+}
+
+/* Styles for Java icon */
+.java-icon {
+    border-radius: 8px;
+    /* Adds rounded corners to the Java icon for a softer appearance */
+}
+
+/* Styles for projects section */
+#projects {
+    padding: 3rem 0;
+    /* Adds padding (3rem) to the top and bottom of the projects section */
+    text-align: left;
+    /* Aligns all text inside the projects section to the left */
+}
+
+/* Styles for the projects heading */
+#projects h2 {
+    text-align: center;
+    /* Centers the "Projects" heading */
+    margin-bottom: 2rem;
+    /* Adds space below the heading for better layout separation */
+}
+
+/* Grid layout for project cards */
+.project-grid {
+    display: grid;
+    /* Uses CSS Grid to arrange the project cards in a grid layout */
+    grid-template-columns: repeat(2, 1fr);
+    /* Creates two equal-width columns in the grid */
+    gap: 1rem;
+    /* Adds a 1rem gap between grid items (project cards) */
+    margin-top: 1rem;
+    /* Adds space above the grid for separation from other content */
+}
+
+/* Styles for individual project cards */
+.project-card {
+    background-color: #2a2a2a;
+    /* Sets a dark background color for the project cards */
+    border-radius: 10px;
+    /* Rounds the corners of the project cards */
+    overflow: hidden;
+    /* Hides any content that overflows the project card (e.g., images) */
+}
+
+/* Styles for images inside project cards */
+.project-card img {
+    width: 100%;
+    /* Ensures the image takes up 100% of the width of the project card */
+    height: 200px;
+    /* Sets the image height to 200px */
+    object-fit: cover;
+    /* Ensures the image covers the entire area of the card, maintaining aspect ratio */
+}
+
+/* Styles for project titles (h3) */
+.project-card h3 {
+    margin-left: 1rem;
+    /* Adds 1rem of space to the left of the heading (title of the project) */
+    margin-bottom: 1rem;
+    /* Adds 1rem of space below the heading for separation */
+    margin-top: -1rem;
+    /* Reduces the space above the heading, pulling it closer to the image */
+}
+
+/* Styles for "Click to visit" text (h5) */
+.project-card h5 {
+    margin-top: 1rem;
+    /* Adds 1rem of space above the "Click to visit" text for separation */
+    margin-left: 2rem;
+    /* Adds 2rem of space to the left of the "Click to visit" text */
+}
+
+/* Styles for project links */
+.project-link {
+    display: block;
+    /* Ensures the link occupies the full width of its container */
+    padding: 1rem;
+    /* Adds padding inside the link for a clickable area around the text */
+    color: #ffffff;
+    /* Sets the text color of the link to white */
+    text-decoration: none;
+    /* Removes the underline from the link */
+    text-align: left;
+    /* Aligns the link text to the left */
+}
+
+/* Styles for experience section */
+#experience {
+    padding: 4rem 0;
+    text-align: center;
+    /* Center all text content */
+}
+
+/* Styles for experience heading */
+.experience-heading {
+    text-align: center;
+        /* Center the heading */
+        margin-bottom: 2rem;
+        /* Add space below the heading */
+        font-size: 2.5rem;
+        /* Adjust font size if necessary */
+}
+
+/* Styles for experience timeline */
+.experience-timeline {
+    margin-top: 2rem;
+}
+/* Styles for experience item */
+.experience-item {
+    display: flex;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Styles for contacts section */
+#contact {
+    padding: 4rem 0;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+/* Styles for contacts email */
+.contact-email {
+    margin: 2rem 0;
+}
+
+/* Styles for contacts email link*/
+.contact-email a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Styles for contacts social link*/
+.social-links {
+    display: flex;
+    justify-content: left;
+    gap: 1rem;
+}
+
+/* Styles for contacts social icons*/
+.social-icon {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Styles for contacts x icon*/
+.x-icon {
+    border-radius: 25%;
+}
+
